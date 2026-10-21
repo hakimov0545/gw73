@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="uz">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Parkovka — Shahar avtoturargohlari</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <div class="logo">Parkovka</div>
+      <nav class="menu">
+        <a href="#">Bosh sahifa</a>
+        <a href="#">Kontaktlar</a>
+        <button class="header-btn">Kirish</button>
+      </nav>
+    </header>
+
+    <!-- Hero block -->
+    <section class="hero">
+      <span class="hero-tag">1 km radiusdagi parkovkalar</span>
+      <h1 class="hero-title">
+        Atrofdagi eng yaqin va qulay bo'sh joylarni toping
+      </h1>
+      <p class="hero-subtitle">
+        Joriy joylashuvingizdan 1 kilometr radiusdagi barcha avtoturargohlar
+        ro'yxati, real vaqt rejimidagi bo'sh joylar va tezkor band qilish
+        imkoniyati.
+      </p>
+      <div class="hero-buttons">
+        <button class="btn-primary">Joyni band qilish</button>
+        <button class="btn-secondary">Xaritada ko'rish</button>
+      </div>
+    </section>
+
+    <!-- Kartalar bloki: Список парковок в радиусе 1 км -->
+    <section class="kartalar">
+      <div class="karta">
+        <div class="parking-info">
+          <span class="distance">350 metr uzoqlikda</span>
+          <h3 class="karta-title">«Central Plaza» avtoturargohi</h3>
+          <p class="karta-desc">Manzil: Amir Temur ko'chasi, 15</p>
+          <p class="status available">Bo'sh joylar: <strong>12 ta</strong></p>
+          <p class="price">Narxi: 5,000 so'm / soat</p>
+        </div>
+        <button class="btn-book">Band qilish</button>
+      </div>
+
+      <div class="karta">
+        <div class="parking-info">
+          <span class="distance">650 metr uzoqlikda</span>
+          <h3 class="karta-title">«Grand Mall» parkingi</h3>
+          <p class="karta-desc">Manzil: Navoiy ko'chasi, 42</p>
+          <p class="status few">Bo'sh joylar: <strong>3 ta</strong></p>
+          <p class="price">Narxi: 4,000 so'm / soat</p>
+        </div>
+        <button class="btn-book">Band qilish</button>
+      </div>
+
+      <div class="karta">
+        <div class="parking-info">
+          <span class="distance">850 metr uzoqlikda</span>
+          <h3 class="karta-title">«Business Center» ochiq turargohi</h3>
+          <p class="karta-desc">Manzil: Mustaqillik shoh ko'chasi, 8</p>
+          <p class="status full">Bo'sh joylar: <strong>Qolmagan</strong></p>
+          <p class="price">Narxi: 3,000 so'm / soat</p>
+        </div>
+        <button class="btn-book" disabled>Band qilingan</button>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <p>&copy; 2026 Parkovka. Barcha huquqlar himoyalangan.</p>
+    </footer>
+  </body>
+</html>
